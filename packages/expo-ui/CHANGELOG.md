@@ -1,5 +1,12 @@
 # Changelog
 
+## 58.0.27
+
+### Patch Changes
+
+- [iOS] Fix fixed-size `Host` content placed too high when a safe-area inset covers the `Host`, for example below the fold of a sheet. ([#52682](https://github.com/expo/expo/pull/52682) by [@dileepapeiris](https://github.com/dileepapeiris))
+- [iOS] Fix a universal `Column` with no width collapsing to 0 when it contains a `List`. ([#52792](https://github.com/expo/expo/pull/52792) by [@intergalacticspacehighway](https://github.com/intergalacticspacehighway))
+
 ## 58.0.26
 
 ### Patch Changes
